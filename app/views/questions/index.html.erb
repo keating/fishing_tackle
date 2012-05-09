@@ -1,0 +1,17 @@
+<div class="main-content">
+  <h2>Questions and answers</h2>
+  <%= render @questions %>
+</div>
+
+<div class="divide-dev"></div>
+
+<div class="side-bar">
+  <div class="side-content">
+    <a href="<%= new_question_path %>" class="btn btn-primary" style="color: #ffffff;display:block;width: 100px;margin-top: 10px;margin-bottom: 10px;margin-left: auto;margin-right: auto;">
+      Ask a question !
+    </a>
+  </div>
+  <div class="side-content" style="margin-top: 10px;">
+    <%= render 'comman/adsense' %>
+  </div>
+</div>

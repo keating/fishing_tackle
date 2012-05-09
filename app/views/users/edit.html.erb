@@ -1,0 +1,41 @@
+<label style="padding-left: 300px;padding-top:20px;padding-bottom:20px;font-size: 3em;font-weight: bold;">Update your profile</label>
+
+<div style="padding-left: 200px;">
+  <%= form_for(@user) do |f| %>
+      <% if @user.errors.any? %>
+          <div id="error_explanation">
+            <div class="alert alert-error">
+              <%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:
+            </div>
+
+            <ul>
+              <% @user.errors.full_messages.each do |msg| %>
+                  <li>* <%= msg %></li>
+              <% end %>
+            </ul>
+          </div>
+      <% end %>
+
+      <div class="field">
+        <%= f.label :name %>
+        <%= f.text_field :name, :class => "sign-in-field" %>
+      </div>
+      <div class="field">
+        <%= f.label :email %>
+        <%= f.text_field :email, :class => "sign-in-field" %>
+      </div>
+      <div class="field">
+        <%= f.label :password %>
+        <%= f.password_field :password, :class => "sign-in-field" %>
+      </div>
+      <div class="field">
+        <%= f.label :password_confirmation %>
+        <%= f.password_field :password_confirmation, :class => "sign-in-field" %>
+      </div>
+      <div class="actions">
+        <%= f.submit "Save changes", :class => "btn btn-large btn-primary" %>
+      </div>
+  <% end %>
+  <%= gravatar_for @user %>
+  <a href="http://gravatar.com/emails">change</a>
+</div>

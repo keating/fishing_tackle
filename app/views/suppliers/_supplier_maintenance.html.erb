@@ -1,0 +1,9 @@
+<label style="display:inline;color: #bbb;">
+  Posted by <%= supplier.user.name %> <%= time_ago_in_words supplier.created_at %> Ago&nbsp;
+</label>
+<% if current_user? supplier.user %>
+    <a href="<%= edit_supplier_path supplier %>">Edit</a>&nbsp;
+<% end %>
+<% if (current_user and current_user.admin?) %>
+    <%= link_to 'Destroy', supplier, confirm: 'Are you sure?', method: :delete %>
+<% end %>

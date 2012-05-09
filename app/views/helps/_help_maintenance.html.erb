@@ -1,0 +1,6 @@
+<label style="display:inline;color: #bbb;">
+  Posted by <%= help.user.name %> <%= time_ago_in_words help.created_at %> Ago&nbsp;
+</label>
+<% if ((current_user? help.user) or (current_user and current_user.admin?)) %>
+    <%= link_to 'Destroy', help, confirm: 'Are you sure?', method: :delete %>
+<% end %>

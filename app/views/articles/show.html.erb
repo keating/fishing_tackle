@@ -1,0 +1,22 @@
+<div class="main-content">
+  <h3 style="text-align: center;"><%= @article.title %></h3>
+
+  <p>
+    <%= @article.content.html_safe %>
+  </p>
+
+  <p style="text-align: right;">
+    <%= render :partial => 'articles/article_maintenance', :locals => {:article => @article} %>
+  </p>
+</div>
+
+<div class="divide-dev"></div>
+
+<div class="side-bar">
+  <div class="side-content">
+    <%= render 'comman/article_button' %>
+  </div>
+  <div class="side-content" style="margin-top: 10px;">
+    <%= render 'comman/adsense' %>
+  </div>
+</div>

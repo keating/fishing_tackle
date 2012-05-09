@@ -1,0 +1,17 @@
+<div style="margin-bottom: 5px;border: 1px solid #ccc;padding: 5px;background-color: #f0f0f0" class="rounded-corners">
+  <%= question.content %>
+  <div style="text-align: right;">
+    <%= render :partial => 'questions/question_maintenance', :locals => {:question => question} %>
+  </div>
+</div>
+
+<% unless question.helps.empty? %>
+    <% question.helps.each do |help| %>
+        <div style="margin-bottom: 5px;margin-left: 20px;border: 1px solid #ccc;padding: 5px;background-color: #f9f9f9" class="rounded-corners">
+          <%= help.content %>
+          <div style="text-align: right;">
+            <%= render :partial => 'helps/help_maintenance', :locals => {:help => help} %>
+          </div>
+        </div>
+    <% end %>
+<% end %>

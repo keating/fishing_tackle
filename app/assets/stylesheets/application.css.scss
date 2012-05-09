@@ -1,0 +1,112 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+@import 'bootstrap';
+
+@mixin rounded-corners($radius: 4px) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.boxsizingBorder{
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+.rounded-corners {
+  @include rounded-corners;
+}
+
+body {
+  background: #eee url("/assets/bodybg.jpg") bottom left repeat;
+}
+
+div.navbar {
+  font-weight: bold;
+}
+
+div.content {
+  width: 840px;
+  min-height: 450px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+}
+
+div.main-content, div.side-bar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+div.main-content, div.side-content {
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  padding: 5px;
+  @include rounded-corners;
+  h2 {
+    margin-bottom: 5px;
+  }
+}
+
+div.main-content {
+  width: 585px;
+}
+
+div.side-bar {
+  width: 210px;
+}
+
+div.divide-dev {
+  display:inline-block;
+  width: 10px;
+}
+
+div.common-line {
+  width: 100%;
+  height: 2px;
+  border-top: 1px solid #ddd;
+  margin-bottom: 5px;
+}
+
+div.footer {
+  width: 840px;
+  height:100px;
+  margin: 0 auto;
+  padding-top: 5px;
+  border-top: 1px solid #bbb;
+}
+
+.sign-in-field {
+  height: 28px;
+  width: 400px;
+  /*background-color: #FAFFBD;*/
+}
+
+#error_explanation {
+  color:#f00;
+  ul {
+    list-style: none;
+    margin: 0 0 18px 0;
+  }
+}
+
+.field_with_errors {
+  @extend .control-group;
+  @extend .error;
+}
+

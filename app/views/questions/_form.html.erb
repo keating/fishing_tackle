@@ -1,0 +1,22 @@
+<%= form_for(@question) do |f| %>
+    <% if @question.errors.any? %>
+        <div id="error_explanation">
+          <div class="alert alert-error">
+            <%= pluralize(@question.errors.count, "error") %> prohibited this question from being saved:
+          </div>
+
+          <ul>
+            <% @question.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.text_area :content, :style => "width:574px;height:180px;" %>
+    </div>
+    <div class="actions">
+      <%= f.submit :class => "btn btn-primary" %>
+    </div>
+<% end %>

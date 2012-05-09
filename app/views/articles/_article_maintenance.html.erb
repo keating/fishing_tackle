@@ -1,0 +1,10 @@
+<label style="display:inline;color: #ccc;">
+  Posted by <%= article.user.name %> <%= time_ago_in_words article.created_at %> Ago&nbsp;
+</label>
+<a href="<%= article_path article %>">Show</a>&nbsp;
+<% if current_user? article.user %>
+    <a href="<%= edit_article_path article %>">Edit</a>&nbsp;
+<% end %>
+<% if (current_user and current_user.admin?) %>
+    <%= link_to 'Destroy', article, confirm: 'Are you sure?', method: :delete %>
+<% end %>

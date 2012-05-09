@@ -1,0 +1,10 @@
+<label style="display:inline;color: #bbb;">
+  Posted by <%= question.user.name %> <%= time_ago_in_words question.created_at %> Ago&nbsp;
+</label>
+<a href="<%= question_path question %>">Answer</a>&nbsp;
+<% if current_user? question.user %>
+    <a href="<%= edit_question_path question %>">Edit</a>&nbsp;
+<% end %>
+<% if (current_user and current_user.admin?) %>
+    <%= link_to 'Destroy', question, confirm: 'Are you sure?', method: :delete %>
+<% end %>

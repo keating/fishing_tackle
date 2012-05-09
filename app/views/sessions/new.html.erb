@@ -1,0 +1,16 @@
+<label style="padding-left: 300px;padding-top:20px;padding-bottom:20px;font-size: 3em;font-weight: bold;">Sign in</label>
+<br />
+
+<div style="padding-left: 200px;">
+  <%= form_for(:session, :url => sessions_path) do |f| %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email, :class => "sign-in-field" %>
+      <br />
+      <%= f.label :password %>
+      <%= f.password_field :password, :class => "sign-in-field" %>
+      <br />
+      <%= f.submit "Sign in", :class => "btn btn-large btn-primary" %>
+
+  <% end %>
+</div>

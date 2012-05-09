@@ -1,0 +1,10 @@
+<div class="common-line"></div>
+<div class="article-title" style="position: relative;">
+  <b><a href="<%= article_path article %>"><%= article.title %></a></b>
+</div>
+<div class="article-content">
+  <%= wrap article.content %>
+</div>
+<div style="margin-bottom: 5px;text-align: right;">
+  <%= render :partial => 'articles/article_maintenance', :locals => {:article => article} %>
+</div>

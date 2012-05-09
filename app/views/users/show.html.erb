@@ -1,0 +1,28 @@
+<div class="main-content">
+  <h3><%= @user.name %>'s articles</h3>
+  <div class="common-line"></div>
+  <% @user.articles.each do |article| %>
+      <a href="<%= article_path article %>"><%= article.title %></a>
+      <br/>
+  <% end %>
+  <!--<h3><%#= @user.name %>'s questions</h3>-->
+  <!--<h3><%#= @user.name %>'s answers</h3>-->
+</div>
+
+<div class="divide-dev"></div>
+
+<div class="side-bar">
+  <div class="side-content">
+    <div style="display: inline-block;">
+      <%= gravatar_for @user %>
+    </div>
+    <div style="display: inline-block;vertical-align: top;margin-left: 5px;">
+      <h3><%= @user.name %></h3>
+      <%= @user.email %>
+    </div>
+  </div>
+
+  <div class="side-content" style="margin-top: 10px;">
+    <%= render 'comman/adsense' %>
+  </div>
+</div>

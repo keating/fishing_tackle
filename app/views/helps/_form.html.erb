@@ -1,0 +1,20 @@
+<%= form_for(@help) do |f| %>
+
+    <%= f.text_field :question_id, :type => "hidden", :value => "#{question.id}" %>
+
+    <div class="field">
+      <%= f.text_area :content, :style => 'height:180px;width:100%;', :class => 'boxsizingBorder' %>
+    </div>
+    <% if @help.errors.any? %>
+        <div id="error_explanation">
+          <ul>
+            <% @help.errors.full_messages.each do |msg| %>
+                <li>* <%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+    <div class="actions">
+      <%= f.submit 'Post Answer', :class => 'btn btn-primary' %>
+    </div>
+<% end %>
