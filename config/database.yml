@@ -19,7 +19,11 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: postgresql
+  database: hfravxlubk
   pool: 5
   timeout: 5000
+  host: ec2-23-21-64-61.compute-1.amazonaws.com
+  username: hfravxlubk
+  password: x_3J-akpLJ9vLkmPMhCT
+  encoding: utf8
