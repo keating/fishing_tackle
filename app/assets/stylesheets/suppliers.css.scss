@@ -3,11 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .supplier-detail {
-  line-height: 20px;
-  max-height: 160px;
+  max-height: 155px;
   overflow: hidden;
   text-overflow: ellipsis;
   border: 1px solid #ccc;
   padding: 5px;
   margin-bottom: 5px;
+}
+
+.supplier-detail div {
+  /*line-height: 20px;*/
+  /*max-height: 160px;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*border: 1px solid #ccc;*/
+  /*padding: 5px;*/
+  /*margin-bottom: 5px;*/
 }

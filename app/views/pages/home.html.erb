@@ -1,6 +1,6 @@
 <div style="display: inline-block;">
   <div class="main-content" style="display: block;">
-    <h2>Newest suppliers</h2>
+    <h2>Newest Suppliers</h2>
     <% @suppliers.each do |supplier| %>
         <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
         <a href="<%= supplier_path supplier %>"><%= supplier.name %></a>
