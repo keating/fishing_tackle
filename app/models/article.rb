@@ -2,7 +2,7 @@ class Article < ActiveRecord::Base
   attr_accessible :content, :title
 
   validates :title, :presence => true, :length => {:maximum => 100}, :uniqueness => true
-  validates :content, :presence => true
+  validates :content, :presence => true, :length => {:maximum => 20000}
 
   belongs_to :user
 

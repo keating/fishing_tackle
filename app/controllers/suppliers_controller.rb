@@ -14,6 +14,11 @@ class SuppliersController < ApplicationController
     @suppliers = Supplier.all_by_created_time
   end
 
+  def show
+    @supplier = Supplier.find(params[:id])
+    @title = @supplier.name + @title_tail
+  end
+
   def new
     @supplier = Supplier.new
   end

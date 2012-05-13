@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def home
-    @articles = Article.all_by_created_time
+    @suppliers = Supplier.all_by_created_time.limit(5)
+    @questions = Question.all_by_created_time.limit(5)
   end
 end

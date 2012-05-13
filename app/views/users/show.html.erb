@@ -1,12 +1,27 @@
-<div class="main-content">
-  <h3><%= @user.name %>'s articles</h3>
-  <div class="common-line"></div>
-  <% @user.articles.each do |article| %>
-      <a href="<%= article_path article %>"><%= article.title %></a>
-      <br/>
-  <% end %>
-  <!--<h3><%#= @user.name %>'s questions</h3>-->
-  <!--<h3><%#= @user.name %>'s answers</h3>-->
+<div style="display: inline-block;">
+  <div class="main-content" style="display: block;">
+    <h3><%= @user.name %>'s suppliers</h3>
+    <% @user.suppliers.each do |supplier| %>
+        <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
+        <a href="<%= supplier_path supplier %>"><%= supplier.name %></a>
+    <% end %>
+  </div>
+
+  <div class="main-content" style="display: block;margin-top: 10px;">
+    <h3><%= @user.name %>'s questions</h3>
+    <% @user.questions.each do |question| %>
+        <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
+        <a href="<%= question_path question %>"><%= question.title %></a>
+    <% end %>
+  </div>
+
+  <div class="main-content" style="display: block;margin-top: 10px;">
+    <h3>Questions <%= @user.name %> answered</h3>
+    <% @user.helps.each do |help| %>
+        <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
+        <a href="<%= question_path help.question %>"><%= help.question.title %></a>
+    <% end %>
+  </div>
 </div>
 
 <div class="divide-dev"></div>

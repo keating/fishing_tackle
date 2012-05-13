@@ -1,0 +1,31 @@
+<div style="display: inline-block;">
+  <div class="main-content" style="display: block;">
+    <h2>Newest suppliers</h2>
+    <% @suppliers.each do |supplier| %>
+        <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
+        <a href="<%= supplier_path supplier %>"><%= supplier.name %></a>
+    <% end %>
+
+  </div>
+
+  <div class="main-content" style="display: block;margin-top: 10px;">
+    <h2>Newest Questions</h2>
+    <% @questions.each do |question| %>
+        <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
+        <a href="<%= question_path question %>"><%= question.title %></a>
+    <% end %>
+  </div>
+</div>
+
+<div class="divide-dev"></div>
+
+<div class="side-bar">
+  <div class="side-content">
+    <%= render 'comman/supplier_button' %>
+    <%= render 'comman/question_button' %>
+  </div>
+
+  <div class="side-content" style="margin-top: 10px;">
+    <%= render 'comman/adsense' %>
+  </div>
+</div>

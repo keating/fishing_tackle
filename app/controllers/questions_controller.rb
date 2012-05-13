@@ -17,6 +17,7 @@ class QuestionsController < ApplicationController
   def show
     @question = Question.find(params[:id])
     @help = Help.new
+    @title = @question.title + @title_tail
   end
 
   def new
@@ -32,7 +33,7 @@ class QuestionsController < ApplicationController
 
     if @question.save
       flash[:success] = "Question was successfully created."
-      redirect_to questions_path
+      redirect_to @question
     else
       render 'new'
     end
@@ -41,7 +42,7 @@ class QuestionsController < ApplicationController
   def update
     if @question.update_attributes(params[:question])
       flash[:success] = "Question was successfully updated."
-      redirect_to questions_path
+      redirect_to @question
     else
       render 'edit'
     end

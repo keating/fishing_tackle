@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
 
   def initialize
     super
-    @title = 'Fishing Tackle Articles | Suppliers | Questions & Help'
+    @title = 'Fishing Tackle Suppliers | Questions & Help'
     @title_tail = ' | Fishing Tackle'
   end
 

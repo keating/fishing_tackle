@@ -11,38 +11,39 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120506082720) do
+ActiveRecord::Schema.define(:version => 20120513002150) do
 
   create_table "articles", :force => true do |t|
     t.string   "title"
-    t.string   "content"
+    t.string   "content",    :limit => 20000
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
   end
 
   create_table "helps", :force => true do |t|
-    t.string   "content"
+    t.string   "content",     :limit => 5000
     t.integer  "question_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
     t.integer  "user_id"
   end
 
   create_table "questions", :force => true do |t|
-    t.string   "content"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "content",    :limit => 5000
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
     t.integer  "user_id"
+    t.string   "title"
   end
 
   create_table "suppliers", :force => true do |t|
     t.string   "name"
     t.string   "tel"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
     t.string   "address"
-    t.string   "detail"
+    t.string   "detail",     :limit => 10000
     t.string   "fax"
     t.string   "email"
     t.integer  "user_id"
@@ -53,9 +54,9 @@ ActiveRecord::Schema.define(:version => 20120506082720) do
     t.string   "email"
     t.string   "password_digest"
     t.string   "remember_token"
-    t.boolean  "admin"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.boolean  "admin",           :default => false
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
   end
 
 end

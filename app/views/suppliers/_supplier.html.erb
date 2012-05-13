@@ -1,27 +1,13 @@
 
 <div style="width: 100%;display: inline-block;margin-bottom: 5px;">
-  <div style="width: 100%;background-color: #f0f0f0;padding-top: 5px;padding-bottom: 5px;">
-    <b><%= supplier.name %></b>
+  <div style="width: 100%;background-color: #eee;padding-top: 5px;padding-bottom: 5px;">
+    <b><a href="<%= supplier_path supplier %>"><%= supplier.name %></a></b>
   </div>
-  <% unless supplier.tel.empty? %>
-      <b>TEL:&nbsp;</b><%= supplier.tel %>
-      <br/>
-  <% end %>
-  <% unless supplier.fax.empty? %>
-      <b>FAX:&nbsp;</b><%= supplier.fax %>
-      <br/>
-  <% end %>
-  <% unless supplier.email.empty? %>
-      <b>Email:&nbsp;</b><%= supplier.email %>
-      <br/>
-  <% end %>
-  <% unless supplier.address.empty? %>
-      <b>Address:&nbsp;</b><%= supplier.address %>
-  <% end %>
+  <%= render :partial => 'suppliers/property', :locals => {:supplier => supplier} %>
 </div>
 
 <% unless (supplier.detail.nil? or supplier.detail.empty?) %>
-    <div style="border: 1px solid #ccc;padding: 5px;margin-bottom: 5px;" class="rounded-corners">
+    <div class="supplier-detail rounded-corners">
       <%= supplier.detail.html_safe %>
     </div>
 <% end %>

@@ -1,5 +1,7 @@
 <div style="margin-bottom: 5px;border: 1px solid #ccc;padding: 5px;background-color: #f0f0f0" class="rounded-corners">
-  <%= question.content %>
+  <b><a href="<%= question_path question %>"><%= question.title %></a></b>
+  <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
+  <%= question.content.html_safe %>
   <div style="text-align: right;">
     <%= render :partial => 'questions/question_maintenance', :locals => {:question => question} %>
   </div>

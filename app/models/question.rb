@@ -1,7 +1,8 @@
 class Question < ActiveRecord::Base
-  attr_accessible :content
+  attr_accessible :title, :content
 
-  validates :content, :presence => true
+  validates :title, :presence => true, :length => {:maximum => 80}
+  validates :content, :presence => true, :length => {:maximum => 5000}
 
   has_many :helps
   belongs_to :user

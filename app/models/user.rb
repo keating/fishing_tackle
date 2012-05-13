@@ -13,8 +13,8 @@ class User < ActiveRecord::Base
   validates :password_confirmation, presence: true
 
   has_many :articles
-  has_many :suppliers
-  has_many :questions
+  has_many :suppliers, :order => "created_at desc"
+  has_many :questions, :order => "created_at desc"
   has_many :helps
 
   private
