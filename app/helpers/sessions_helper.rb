@@ -24,7 +24,7 @@ module SessionsHelper
   def signed_in_user
     unless sign_in?
       store_location
-      redirect_to signin_path
+      redirect_to login_path
     end
   end
 

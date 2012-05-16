@@ -1,14 +1,15 @@
-
 <div style="width: 100%;display: inline-block;margin-bottom: 5px;">
-  <div style="width: 100%;background-color: #eee;padding-top: 5px;padding-bottom: 5px;">
+  <div style="width: 100%;background-color: #eee;padding-top: 5px;padding-bottom: 5px;padding-left: 5px;margin-bottom: 5px;" class="rounded-corners">
     <b><a href="<%= supplier_path supplier %>"><%= supplier.name %></a></b>
   </div>
-  <%= render :partial => 'suppliers/property', :locals => {:supplier => supplier} %>
+  <div style="padding-left: 5px;">
+    <%= render :partial => 'suppliers/property', :locals => {:supplier => supplier} %>
+  </div>
 </div>
 
 <% unless (supplier.detail.nil? or supplier.detail.empty?) %>
     <div class="supplier-detail rounded-corners">
-      <%= supplier.detail.html_safe %>
+      <%= strip_tags supplier.detail %>
     </div>
 <% end %>
 <div style="text-align: right;margin-bottom: 5px;">

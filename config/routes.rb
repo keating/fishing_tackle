@@ -18,7 +18,7 @@ Fishingtackle::Application.routes.draw do
   #post "sessions#create"
 
   match "signup" => "users#new"
-  match "signin" => "sessions#new"
+  match "login" => "sessions#new"
   match "signout" => "sessions#destroy"
 
   # The priority is based upon order of creation:
