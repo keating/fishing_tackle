@@ -1,6 +1,10 @@
 <div class="main-content">
   <h3 style="text-align: center;"><%= @supplier.name %></h3>
-  <%= render :partial => 'suppliers/property', :locals => {:supplier => @supplier} %>
+
+  <div style="margin-top: 10px;padding-left: 10px;">
+    <%= render :partial => 'suppliers/property', :locals => {:supplier => @supplier} %>
+  </div>
+
   <p>
     <%= @supplier.detail.html_safe %>
   </p>
