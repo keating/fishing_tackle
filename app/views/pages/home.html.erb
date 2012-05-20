@@ -5,7 +5,9 @@
         <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
         <a href="<%= supplier_path supplier %>"><%= supplier.name %></a>
     <% end %>
-
+    <div style="text-align: right;height: 30px;line-height: 30px;">
+        <a href="<%= suppliers_path %>" style="font-size: 1.2em">more suppliers >></a>
+    </div>
   </div>
 
   <div class="main-content" style="display: block;margin-top: 10px;">
@@ -14,6 +16,9 @@
         <div class="common-line" style="margin-top: 3px;margin-bottom: 3px;"></div>
         <a href="<%= question_path question %>"><%= question.title %></a>
     <% end %>
+    <div style="text-align: right;height: 30px;line-height: 30px;">
+      <a href="<%= questions_path %>" style="font-size: 1.2em">more questions >></a>
+    </div>
   </div>
 </div>
 
