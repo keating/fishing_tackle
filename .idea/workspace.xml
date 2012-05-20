@@ -1,7 +1,873 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c201c5c-20b8-4175-a7a1-72b575b319b3" name="Default" comment="" />
+    <list default="true" id="4c201c5c-20b8-4175-a7a1-72b575b319b3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comman/_disqus.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/b311533891076f690535c8b39949c0346287a025/application.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-14b188471403fb279d10d9a98afddda9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-14b188471403fb279d10d9a98afddda9.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-27d55a0bf8f5ddf75622fd0c0e790c5e.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-27d55a0bf8f5ddf75622fd0c0e790c5e.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-44c7ff37ba2e4eddcb58cc87edeb6905.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-44c7ff37ba2e4eddcb58cc87edeb6905.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-98785bc091603e32572e2ffb235e41dd.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-98785bc091603e32572e2ffb235e41dd.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-c3b47fed90dd249a550cfaaae80b2158.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-c3b47fed90dd249a550cfaaae80b2158.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-c4560e5f4c5587a58128e6de2b0d12f6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-c4560e5f4c5587a58128e6de2b0d12f6.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bodybg-18db1d412d58ac0f93997ce35293d928.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bodybg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/CHANGES-5b3d1c095e0302e763e056cb29773f00.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/CHANGES.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/INSTALL-4aa6f9a4c8d62e829e376ed7b8c9dd13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/INSTALL.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/LICENSE-41124a93286807d28ed40aab7e3ebde5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/LICENSE.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/adapters/jquery-a438ca364b443a7470cadb02374519de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/adapters/jquery-a438ca364b443a7470cadb02374519de.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/adapters/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/adapters/jquery.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/application-aec52e1bf7b876bffda5c12b63a8104e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/application-aec52e1bf7b876bffda5c12b63a8104e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/application-aee7d37a26fcf1ad6caa29551d930dab.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/application-aee7d37a26fcf1ad6caa29551d930dab.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/application.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor-d3b14928b8b37dae6845cdac2c3d72db.pack" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor-d831b6aac7f937c4299b1b7fe215e407.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor-d831b6aac7f937c4299b1b7fe215e407.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor.pack" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_basic-71796ca301eefd8bbd0058bd66b12628.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_basic-71796ca301eefd8bbd0058bd66b12628.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_basic.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_basic_source-0c4187871eddf2d4907115b0c175e31a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_basic_source-0c4187871eddf2d4907115b0c175e31a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_basic_source.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_basic_source.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_source-c60eadae598f3f3770f690e4d6a37bd9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_source-c60eadae598f3f3770f690e4d6a37bd9.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_source.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/ckeditor_source.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/config-205c62f2d3a51840612291ce24eddb71.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/config-205c62f2d3a51840612291ce24eddb71.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/config.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/contents-ebe7b2db82ed8b527489fce81a03d450.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/contents-ebe7b2db82ed8b527489fce81a03d450.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/contents.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/contents.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/gal_add-54f9d6f12bd2ad0c7d7d6b6f9e07979a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/gal_add-8aa905c95fad3086b6c3fc06bfb5b6d5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/gal_add.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/gal_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/gal_del-58ee11595f1b5715f5a6bf71187c5c8f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/gal_del.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/gal_more-6444ac880756d8672a72b436e7a7d6a6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/gal_more.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/preloader-3eddabacc566f06b0dd50d89804a2a0e.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/preloader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/avi-4547f5a0af21dc8181c2f1768c4615e3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/avi.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/ckfnothumb-cd83c799d7cf672062452a5052509cf6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/ckfnothumb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/doc-c31b8bf6eb0d277cbe15e477bfbb0613.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/doc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/docx-54246005b73fbacdaebbba92868f1393.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/docx.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/exe-4209840c9aed3a43141a917e3adb4fa9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/exe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/gz-5edc2913effcc4ca93c3d272c8ac7a88.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/gz.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/htm-4be70ad83db10dae22affdfacbceff07.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/htm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/jpg-5d00fa1565412cb6e9caeca437c253bc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/jpg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/mp3-9d673f048d66814b841c19a386d47c91.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/mp3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/mpg-a400d397de8fb2a2be59ce324c135e16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/mpg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/pdf-387c0289bf601189edf1c95417d2b225.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/pdf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/psd-9623b044cdf6d2b57019b927650a3bd2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/psd.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/rar-fe3bcea16233c2308dd7f037b101a71a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/rar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/swf-2d529325273719c977280d556fb7ffc6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/swf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/tar-5edc2913effcc4ca93c3d272c8ac7a88.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/tar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/txt-4ed2908bbd7436c23153e3fdc94178e6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/txt.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/unknown-ef4f3ad4b3d98dd7c9b84ed7d0779389.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/unknown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/wmv-06d0ec5b8a2d06bdc18403c05b21e95d.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/wmv.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/xls-9bce81c0c7c9c3d81e0006f3163785d0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/xls.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/xlsx-d9066f44575b09119b6bf112d05ebeb9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/xlsx.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/zip-5edc2913effcc4ca93c3d272c8ac7a88.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/images/thumbs/zip.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/javascripts/application-84d4b93a108d4957459cdc92c56f3879.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/javascripts/application-84d4b93a108d4957459cdc92c56f3879.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/javascripts/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/filebrowser/javascripts/application.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/images/spacer-f561b1c264ed4bdb4ebfaacbe1b8313a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/images/spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/_languages-e010c998854240927c6817167979387a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/_languages-e010c998854240927c6817167979387a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/_languages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/_languages.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/_translationstatus-791368ff44a88ee4aa306cb68399d7d9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/af-dc77fb89272cd2fd7c30417aa129f68e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/af-dc77fb89272cd2fd7c30417aa129f68e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/af.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ar-f12acb3843787c612462129d0d9f48aa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ar-f12acb3843787c612462129d0d9f48aa.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ar.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bg-1c5d9db729c7f33e4c959ad536e6f811.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bg-1c5d9db729c7f33e4c959ad536e6f811.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bg.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bn-2a4b92939b9238cd9fcd83e08dbba6b2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bn-2a4b92939b9238cd9fcd83e08dbba6b2.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bn.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bs-65f6876a1339e3861a976a027075f0c4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bs-65f6876a1339e3861a976a027075f0c4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/bs.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ca-c995bfcf9516d735e640a7d56e4019a0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ca-c995bfcf9516d735e640a7d56e4019a0.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ca.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/cs-3f9d9546a7589bb5e485791153849e07.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/cs-3f9d9546a7589bb5e485791153849e07.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/cs.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/cy-cde2e2e2b91b815eca57bd5b87aac213.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/cy-cde2e2e2b91b815eca57bd5b87aac213.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/cy.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/da-f09537a668fddbbb044f960c23db52e7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/da-f09537a668fddbbb044f960c23db52e7.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/da.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/de-81bc458ee9ad07377b8dba0a93ebea69.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/de-81bc458ee9ad07377b8dba0a93ebea69.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/de.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/el-02f428d46ca2737d786959152bd7371c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/el-02f428d46ca2737d786959152bd7371c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/el.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-au-34c72594953a7680fdfd22ec2d2d620a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-au-34c72594953a7680fdfd22ec2d2d620a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-au.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-ca-9822ddd2ecf8ee11e3487944d4088a9b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-ca-9822ddd2ecf8ee11e3487944d4088a9b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-ca.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-d5dfecb709b4515ba940f9870090e707.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-d5dfecb709b4515ba940f9870090e707.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-gb-4e59010e57fe68762e123d1a96a220cf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-gb-4e59010e57fe68762e123d1a96a220cf.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en-gb.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/en.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/eo-aa576d7154b0ac1f63d4233189ede7ad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/eo-aa576d7154b0ac1f63d4233189ede7ad.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/eo.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/es-b2b13cfa9117ca12b8ab9e0851cbaf6b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/es-b2b13cfa9117ca12b8ab9e0851cbaf6b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/es.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/et-f84ceaf329e1f01723c591510cc782bb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/et-f84ceaf329e1f01723c591510cc782bb.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/et.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/eu-5a86d4ca0b2d401d9c5dd90722694d5b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/eu-5a86d4ca0b2d401d9c5dd90722694d5b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/eu.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fa-542a658b82370583bbeb73e716d8a8cf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fa-542a658b82370583bbeb73e716d8a8cf.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fa.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fi-bf0f1dad65e0e1d5e60c934e1abd6537.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fi-bf0f1dad65e0e1d5e60c934e1abd6537.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fi.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fo-d8a00bcf846daa6ce0386be7f7e0e750.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fo-d8a00bcf846daa6ce0386be7f7e0e750.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fo.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fr-c9b616e69e3819e6d61b98c076b1b5a4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fr-c9b616e69e3819e6d61b98c076b1b5a4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fr-ca-d0d7330d4279acd701f35f0036674f50.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fr-ca-d0d7330d4279acd701f35f0036674f50.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fr-ca.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/fr.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/gl-6bf46fed1529ad6b9e0c1d8d42173099.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/gl-6bf46fed1529ad6b9e0c1d8d42173099.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/gl.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/gu-bcecee5b0f7aa891743440aad2ece6d8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/gu-bcecee5b0f7aa891743440aad2ece6d8.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/gu.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/he-e80fd09a93a2f4e58e23c47c06756c74.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/he-e80fd09a93a2f4e58e23c47c06756c74.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/he.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hi-7419e592be22ac3eb4b4cbaa0dc5afc0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hi-7419e592be22ac3eb4b4cbaa0dc5afc0.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hi.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hr-efcb499cf566cac38199a9426791b551.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hr-efcb499cf566cac38199a9426791b551.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hr.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hu-36851c5ff6656f010c4e5d5a75ff1dbe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hu-36851c5ff6656f010c4e5d5a75ff1dbe.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/hu.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/is-cd69e7b7ac8462876914259a533b2b10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/is-cd69e7b7ac8462876914259a533b2b10.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/is.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/it-929b429976fb902af005af154fa13598.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/it-929b429976fb902af005af154fa13598.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/it.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ja-751c520cc096d0f3a0a786000cc4c23c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ja-751c520cc096d0f3a0a786000cc4c23c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ja.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ka-bf30b6656b8ba2d4713b7c6f0c4394db.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ka-bf30b6656b8ba2d4713b7c6f0c4394db.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ka.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/km-f441fc9ee960a20fe770c4f2c4387442.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/km-f441fc9ee960a20fe770c4f2c4387442.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/km.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ko-d7ea21a37863b025eaee40f928b2806f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ko-d7ea21a37863b025eaee40f928b2806f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ko.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/lt-c6ea26845e71c0077df2c6c7d1ff089a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/lt-c6ea26845e71c0077df2c6c7d1ff089a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/lt.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/lv-ddc442d7284e3532c20b81a923ebd810.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/lv-ddc442d7284e3532c20b81a923ebd810.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/lv.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/mn-a6116dca6888aa59a4af66dc789aa3ee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/mn-a6116dca6888aa59a4af66dc789aa3ee.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/mn.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ms-77b2662596bb0426fe972f1a62959513.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ms-77b2662596bb0426fe972f1a62959513.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ms.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/nb-4aaf1aedd47227361bb00219b7ce5672.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/nb-4aaf1aedd47227361bb00219b7ce5672.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/nb.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/nl-8470f1552ed040e509ca23e1bd76ad7f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/nl-8470f1552ed040e509ca23e1bd76ad7f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/nl.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/no-b85bf971b85f47c4b18119b3a96e20de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/no-b85bf971b85f47c4b18119b3a96e20de.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/no.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pl-5eb5c6fb79775b97b4085e0865cfe76b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pl-5eb5c6fb79775b97b4085e0865cfe76b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pl.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pt-9a16c360b0709e2ecec4f66673acf95b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pt-9a16c360b0709e2ecec4f66673acf95b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pt-br-cf91ccba6a8a70fc9f09674a7fa61bd5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pt-br-cf91ccba6a8a70fc9f09674a7fa61bd5.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pt-br.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/pt.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ro-fc09a23383da766b31af8b8a0592379a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ro-fc09a23383da766b31af8b8a0592379a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ro.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ru-a64e9efaf8a01f494ebbae5afb397819.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ru-a64e9efaf8a01f494ebbae5afb397819.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/ru.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sk-200c57d5f1d40514b6cc8e738b982cb6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sk-200c57d5f1d40514b6cc8e738b982cb6.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sk.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sl-6fb28631b1f2c796898ed96212e187a7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sl-6fb28631b1f2c796898ed96212e187a7.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sl.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sr-b7680cdaf9c85eab577ff14226d9f2ac.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sr-b7680cdaf9c85eab577ff14226d9f2ac.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sr-latn-a52d8a97ab478bebd7eefde6da3b34cd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sr-latn-a52d8a97ab478bebd7eefde6da3b34cd.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sr-latn.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sr.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sv-987e7bb5503679d1a07583a4f1f488fb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sv-987e7bb5503679d1a07583a4f1f488fb.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/sv.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/th-9a73dbf7c02a4f203bd4135655bc1b06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/th-9a73dbf7c02a4f203bd4135655bc1b06.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/th.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/tr-f76d4926ec643aa342566af30ea9845e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/tr-f76d4926ec643aa342566af30ea9845e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/tr.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/uk-9a33beeb21848b98fa58132836bf5fbd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/uk-9a33beeb21848b98fa58132836bf5fbd.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/uk.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/vi-fd59c1105c6599158b3b955b0ea5744a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/vi-fd59c1105c6599158b3b955b0ea5744a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/vi.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/zh-5fbd4958e32f1fb8b408b535c7fcb4d1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/zh-5fbd4958e32f1fb8b408b535c7fcb4d1.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/zh-cn-ce556ad4460119d58cef32e77f65b5d1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/zh-cn-ce556ad4460119d58cef32e77f65b5d1.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/zh-cn.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/lang/zh.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/a11yhelp-b51f8a31edae467e792fc56616c7681c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/a11yhelp-b51f8a31edae467e792fc56616c7681c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/lang/en-8562f0b7368c7ce4280f6b078facf5d9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/lang/en-8562f0b7368c7ce4280f6b078facf5d9.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/lang/en.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/lang/he-df0ac2948468b74cf143652008c95153.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/lang/he-df0ac2948468b74cf143652008c95153.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/a11yhelp/lang/he.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/about/dialogs/about-c38f9b8ba77ea3c0febe8309fcdc17a2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/about/dialogs/about-c38f9b8ba77ea3c0febe8309fcdc17a2.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/about/dialogs/about.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/about/dialogs/logo_ckeditor-9aac6e98998b00faf21319608de588c9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/adobeair/plugin-842effa95fb22465e930d96428b8a77f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/adobeair/plugin-842effa95fb22465e930d96428b8a77f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/adobeair/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/adobeair/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/ajax/plugin-f1978fbf1dc6c55680a4a8321c7142a5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/ajax/plugin-f1978fbf1dc6c55680a4a8321c7142a5.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/ajax/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/ajax/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/dialogs/attachment-9647ac41d493ff465196a24210516d6b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/dialogs/attachment-9647ac41d493ff465196a24210516d6b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/dialogs/attachment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/dialogs/attachment.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/images/attachment-b64fd5b1b595348582b19612ad5bfaa5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/images/attachment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/en-05fa08e696a7c4bf25c0fa9cea7852cb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/en-05fa08e696a7c4bf25c0fa9cea7852cb.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/en.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/ru-158fb6e68238fa1bcaebbebdc7295d42.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/ru-158fb6e68238fa1bcaebbebdc7295d42.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/ru.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/uk-8dceaa0ba3d3c3cc7d1f28151ce3600a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/uk-8dceaa0ba3d3c3cc7d1f28151ce3600a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/lang/uk.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/plugin-6c95ac562ea2d01349f86eb475512004.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/plugin-6c95ac562ea2d01349f86eb475512004.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/attachment/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/autogrow/plugin-57f5dcfe9f5e72f6e032280e675837df.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/autogrow/plugin-57f5dcfe9f5e72f6e032280e675837df.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/autogrow/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/autogrow/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/bbcode/plugin-50f8fe47d44ebefe7a43f97f5a6d2bc8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/bbcode/plugin-50f8fe47d44ebefe7a43f97f5a6d2bc8.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/bbcode/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/bbcode/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/clipboard/dialogs/paste-d15e70b33b943396013da1aa6fd55849.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/clipboard/dialogs/paste-d15e70b33b943396013da1aa6fd55849.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/clipboard/dialogs/paste.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/colordialog/dialogs/colordialog-d3b98c73c7b4353ae03535a03f34759f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/colordialog/dialogs/colordialog-d3b98c73c7b4353ae03535a03f34759f.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/colordialog/dialogs/colordialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/colordialog/dialogs/colordialog.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/devtools/lang/en-2cd06f22d780a4cd53bb469e67345f57.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/devtools/lang/en-2cd06f22d780a4cd53bb469e67345f57.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/devtools/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/devtools/lang/en.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/devtools/plugin-c3a177c0bd1b593c8c96ae089eea54a3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/devtools/plugin-c3a177c0bd1b593c8c96ae089eea54a3.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/devtools/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/devtools/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/dialog/dialogDefinition-4254f6ab38c7f10a03936da247d1fe3e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/dialog/dialogDefinition-4254f6ab38c7f10a03936da247d1fe3e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/dialog/dialogDefinition.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/div/dialogs/div-c30a31b5c9bcbdd211274c1e91544237.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/div/dialogs/div-c30a31b5c9bcbdd211274c1e91544237.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/div/dialogs/div.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/div/dialogs/div.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/docprops/dialogs/docprops-b90a62b40f8bee82f2611d4d2c29727b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/docprops/dialogs/docprops-b90a62b40f8bee82f2611d4d2c29727b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/docprops/dialogs/docprops.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/docprops/dialogs/docprops.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/docprops/plugin-fb1242345e89ba464cadad5c76cbae0c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/docprops/plugin-fb1242345e89ba464cadad5c76cbae0c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/docprops/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/docprops/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/dialogs/embed-6366e4aecf2a807b5552c30256178ab1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/dialogs/embed-6366e4aecf2a807b5552c30256178ab1.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/dialogs/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/dialogs/embed.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/images/embed-cd565d6196366be1ed42f4ffdfa5117f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/images/embed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/en-a32ac8d8b0ed41dbf3ef481bdc0783d4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/en-a32ac8d8b0ed41dbf3ef481bdc0783d4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/en.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/ru-6bffc0a7ae1f8a964474536be3577a16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/ru-6bffc0a7ae1f8a964474536be3577a16.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/ru.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/uk-9c05b30b9c03ba572ad6a0ed96c84487.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/uk-9c05b30b9c03ba572ad6a0ed96c84487.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/lang/uk.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/plugin-6b2efb781b454be8c3fcbf33ebb5342e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/plugin-6b2efb781b454be8c3fcbf33ebb5342e.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/embed/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/find/dialogs/find-9e7813cbd0d573af92cf5250b68b948b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/find/dialogs/find-9e7813cbd0d573af92cf5250b68b948b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/find/dialogs/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/find/dialogs/find.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/flash/dialogs/flash-1bbbd43608624b8d7d08a2db33aa56c8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/flash/dialogs/flash-1bbbd43608624b8d7d08a2db33aa56c8.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/flash/dialogs/flash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/flash/dialogs/flash.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/flash/images/placeholder-ab3e1705b759ba6861eb62608c6fc07c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/flash/images/placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/button-221ecba248c5f7d38584279cd42157ae.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/button-221ecba248c5f7d38584279cd42157ae.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/button.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/checkbox-e6ae5af494cc5a9c2c4bdf3a99966a07.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/checkbox-e6ae5af494cc5a9c2c4bdf3a99966a07.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/checkbox.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/form-670e4ecb285ed0ad8c6c018d8fc64295.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/form-670e4ecb285ed0ad8c6c018d8fc64295.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/form.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/hiddenfield-461cf8e0a95f7a87b179b38f9a1edd6b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/hiddenfield-461cf8e0a95f7a87b179b38f9a1edd6b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/hiddenfield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/hiddenfield.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/radio-71b3c68de96200c21d3102921c9ca6cc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/radio-71b3c68de96200c21d3102921c9ca6cc.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/radio.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/select-4be3b9e07d787c4bd678639f0efce2b9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/select-4be3b9e07d787c4bd678639f0efce2b9.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/select.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/textarea-234480bb2ead2289681427ad52fed907.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/textarea-234480bb2ead2289681427ad52fed907.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/textarea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/textarea.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/textfield-63e4d21c0893801d16743762c25c5b06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/textfield-63e4d21c0893801d16743762c25c5b06.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/textfield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/dialogs/textfield.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/images/hiddenfield-6adafb7631d124496a584eab9bcc418a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/forms/images/hiddenfield.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframe/dialogs/iframe-cd49df6b8363b2efeabe05157c6a59d1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframe/dialogs/iframe-cd49df6b8363b2efeabe05157c6a59d1.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframe/dialogs/iframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframe/dialogs/iframe.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframe/images/placeholder-aef3f6d102ebaf87c679d9b12677557b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframe/images/placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframedialog/plugin-0454b26f48c5bbeee37f349541b2c9f6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframedialog/plugin-0454b26f48c5bbeee37f349541b2c9f6.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframedialog/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/iframedialog/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/image/dialogs/image-2910f86c03a917d85a5ec0b6d27bb7ee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/image/dialogs/image-2910f86c03a917d85a5ec0b6d27bb7ee.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/image/dialogs/image.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/dialogs/anchor-1559881842551b6915ec88e839e98e50.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/dialogs/anchor-1559881842551b6915ec88e839e98e50.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/dialogs/anchor.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/dialogs/link-b58f98eddb3a18671d4704c39f290250.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/dialogs/link-b58f98eddb3a18671d4704c39f290250.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/dialogs/link.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/images/anchor-caac0fbc271e4e1899586d71b4060a45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/link/images/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/liststyle/dialogs/liststyle-67f6b5d976e653abdc26190bf52e3a89.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/liststyle/dialogs/liststyle-67f6b5d976e653abdc26190bf52e3a89.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/liststyle/dialogs/liststyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/liststyle/dialogs/liststyle.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pagebreak/images/pagebreak-f5e72a20914565fd6bb298acc847aa87.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pagebreak/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastefromword/filter/default-18101bdb83f6c5833fb94ede85ee910c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastefromword/filter/default-18101bdb83f6c5833fb94ede85ee910c.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastefromword/filter/default.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastetext/dialogs/pastetext-c89f2ff5752dd7b20a8222ad3c06435d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastetext/dialogs/pastetext-c89f2ff5752dd7b20a8222ad3c06435d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastetext/dialogs/pastetext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/pastetext/dialogs/pastetext.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/dialogs/placeholder-55031bbd3263fe98737891c6e50d3a74.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/dialogs/placeholder-55031bbd3263fe98737891c6e50d3a74.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/dialogs/placeholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/dialogs/placeholder.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/lang/en-e9e3761ce0a002d6c66ee1f752df24f4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/lang/en-e9e3761ce0a002d6c66ee1f752df24f4.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/lang/en.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/lang/he-def5e17fb7e78d36e5e48baaa7b25f07.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/lang/he-def5e17fb7e78d36e5e48baaa7b25f07.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/lang/he.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/placeholder-7a34626889568f84f67321d6f64cc64c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/placeholder.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/plugin-e60e64ae211e26d48c86cd5f26b94076.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/plugin-e60e64ae211e26d48c86cd5f26b94076.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/placeholder/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/options-5e21c7f94ce2e116fe7215af66be974b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/options-5e21c7f94ce2e116fe7215af66be974b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/options.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/toolbar-864f2a2eecbfbe7f5c3481a43328cc97.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/toolbar-864f2a2eecbfbe7f5c3481a43328cc97.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/scayt/dialogs/toolbar.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_address-0403a9651c2376f065e6151c5ac69b9b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_address.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_blockquote-3938fa03cff798d84c343dab5fd156b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_blockquote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_div-b3d830158d27a12ab22864a9b1de9d60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_div.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h1-735788c04d379661075b1589e4e74ea4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h2-0b1c3218426f07827fe272a8e7a5a224.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h3-f3c09d5a6f5190464a7c49a379665925.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h4-6d7ba6cd01109cbc515644524514a6bd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h5-8929353dd8a45bd3b165fde61c732057.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h6-bbfd27e175f824feb4a1ca20b52b5410.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_h6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_p-d3754d05215a7a48d354e03c9adca9bf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_p.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_pre-4dc3f12cc50140877548a70465834ce3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/showblocks/images/block_pre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/dialogs/smiley-c1cf732a5cdc472533712e9e552db598.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/dialogs/smiley-c1cf732a5cdc472533712e9e552db598.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/dialogs/smiley.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/dialogs/smiley.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/angel_smile-341fbf27cbe854f17ffcb8b0c048c8d3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/angel_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/angry_smile-c41619b84ada8c0eb1f165b602e1ac5c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/angry_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/broken_heart-17ab6098999d302614f6373fbfc4c2f0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/broken_heart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/confused_smile-995733691e30a95e5fd8bb31eb3621a7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/confused_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/cry_smile-665ddaebed7eac53a4273961b19d8ada.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/cry_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/devil_smile-637e8f5e008a76d9e43e8cfda7f0d37a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/devil_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/embaressed_smile-e76fde2b13941023a215c0592428342c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/embaressed_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/envelope-f1954c9ba82040cebcbfcc4a455fa38a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/envelope.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/heart-35ba72e05261f79b8af5c2286797c79c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/heart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/kiss-e32d8c910afd850f0f2a21526c986144.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/lightbulb-4e7d96944e62a7a4906a6e09bd75367b.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/lightbulb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/omg_smile-4f648fb0a5e010885f4b5c2576a78a40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/omg_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/regular_smile-d482e501442e9d1ee4ba43ebd562ff84.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/regular_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/sad_smile-e694609eee6b55fc08299540516a2c24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/sad_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/shades_smile-a32970726091feba128e57cef41263f8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/shades_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/teeth_smile-16f81a5ba72e498bb731951dc4d76c87.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/teeth_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/thumbs_down-e7b9cadcbb9c0b4c8143e9961ec31e86.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/thumbs_down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/thumbs_up-cb3360c6cfcff85ec5a74b7458fa480f.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/thumbs_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/tounge_smile-3af17b6164cd0445d13076ea435cffb8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/tounge_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/whatchutalkingabout_smile-8ed3fd7f648c584d52d05e202652708c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/wink_smile-1a5ff0fc986e9bf2a9e3561f3fa5bf62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/smiley/images/wink_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/specialchar-3f8af564c0701ee3794118fe18d2d347.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/specialchar-3f8af564c0701ee3794118fe18d2d347.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/dialogs/specialchar.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/lang/en-a2dfa21765343d09c70d76f470a82e48.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/lang/en-a2dfa21765343d09c70d76f470a82e48.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/specialchar/lang/en.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/styles/styles/default-df79019dc3a2011491aef06b36f9bb47.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/styles/styles/default-df79019dc3a2011491aef06b36f9bb47.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/styles/styles/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/styles/styles/default.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/stylesheetparser/plugin-47f95a6cd631c2325e580599f7e6dc27.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/stylesheetparser/plugin-47f95a6cd631c2325e580599f7e6dc27.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/stylesheetparser/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/stylesheetparser/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/table/dialogs/table-3249bfa58b15a9743d01276ba88f966b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/table/dialogs/table-3249bfa58b15a9743d01276ba88f966b.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/table/dialogs/table.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/tableresize/plugin-f375e803038e6c7dfe35a714a7396154.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/tableresize/plugin-f375e803038e6c7dfe35a714a7396154.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/tableresize/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/tableresize/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/tabletools/dialogs/tableCell-4a9348bae75255b30291e1ada98a3f3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/tabletools/dialogs/tableCell-4a9348bae75255b30291e1ada98a3f3d.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/tabletools/dialogs/tableCell.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/dialogs/templates-9d25ab49b436742a06506b8e1cf89f96.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/dialogs/templates-9d25ab49b436742a06506b8e1cf89f96.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/dialogs/templates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/dialogs/templates.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/default-7ab5ffa373c343faf0f07fe641631595.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/default-7ab5ffa373c343faf0f07fe641631595.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/default.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/images/template1-3400c484e18efdfb08eb49106ce3ae54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/images/template1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/images/template2-df8ce5b957407f3b819721b72648a5d6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/images/template2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/images/template3-5385ca53bf6e621654eafc421d645715.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/templates/templates/images/template3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/dialogs/uicolor-a221c244896b7e7958ad4550d7f71f41.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/dialogs/uicolor-a221c244896b7e7958ad4550d7f71f41.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/dialogs/uicolor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/dialogs/uicolor.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/lang/en-8793ffe1b07af3e679855e9fe92892df.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/lang/en-8793ffe1b07af3e679855e9fe92892df.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/lang/en.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/lang/he-90256d740e23acf42f2cff74582cd588.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/lang/he-90256d740e23acf42f2cff74582cd588.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/lang/he.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/plugin-70b473bc32551d20b863b26878442238.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/plugin-70b473bc32551d20b863b26878442238.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/uicolor-cc9592f7fedd87d461134cc355c763a5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/uicolor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/hue_bg-73094755a4a171dc7f93c902f21568d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/hue_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/hue_thumb-ff198c04686b76614068acc8fc69289d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/picker_mask-003d5be77847d5aab97c9f37037c4d74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/picker_thumb-6d70056f48f25557bcae0828ac2a31ab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/picker_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/yui-6b490a839a27ceba2bf1723b42d17f8a.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/yui-6b490a839a27ceba2bf1723b42d17f8a.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/yui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/assets/yui.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/yui-c1e6401b72255886ffe0d025d4f0a809.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/yui-c1e6401b72255886ffe0d025d4f0a809.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/yui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/uicolor/yui/yui.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/ciframe-722aeefd3c149d5fa35d0d0a725656ec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset-612f1b2d44c55eaf6ef630f3a9d4cbef.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc-1c391f4d67a3bf6c212f575294302366.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc-1c391f4d67a3bf6c212f575294302366.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc-51020a41ec00722eb67f0283e791e08a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc-51020a41ec00722eb67f0283e791e08a.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/wsc/dialogs/wsc.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/xml/plugin-e23e518cb8af798b15ebdf3501ca1599.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/xml/plugin-e23e518cb8af798b15ebdf3501ca1599.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/xml/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/plugins/xml/plugin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/dialog-b9b590b10940d3f02a2a97a64229023f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/dialog-b9b590b10940d3f02a2a97a64229023f.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/dialog.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/editor-c36b9b18c32ff534199fcd2107fdfc1c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/editor-c36b9b18c32ff534199fcd2107fdfc1c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/editor.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/icons-909f3451ee6248f35b3ff262a2dadd08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/icons_rtl-0311c4e98297e48543b1bedf62291149.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/icons_rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/dialog_sides-2fb3c8082dea8c4fc6c1659c9a0ec9ed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/dialog_sides-782a5018939ca614a801a04791909fb0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/dialog_sides.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/dialog_sides.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/dialog_sides_rtl-eede1f0bbe3d5fa1bde074f718ee5389.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/dialog_sides_rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/mini-cbe4b5fd30dd61467a11675095b996cf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/mini.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/noimage-0eabb52cde67bc977da7eec7fd652222.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/sprites-1284406d32105cf786f41c09dcc2fbda.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/sprites.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/sprites_ie6-794ebbea938f766b72bf1ab701a68d4d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/sprites_ie6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/toolbar_start-8f13b0cea8d968469521ca68e88cd63d.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/images/toolbar_start.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/skin-f1a1b5ee2702f17ccb6a10e76c3ac3bf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/skin-f1a1b5ee2702f17ccb6a10e76c3ac3bf.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/skin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/skin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/templates-a2040ac7cf0c452316bb30515ec11dd7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/templates-a2040ac7cf0c452316bb30515ec11dd7.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/templates.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/kama/templates.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/dialog-1fee3890f0e608950a449aa43303fc75.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/dialog-1fee3890f0e608950a449aa43303fc75.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/dialog.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/editor-d44d4a5dfdf0c3f55db67cdde9cbc06c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/editor-d44d4a5dfdf0c3f55db67cdde9cbc06c.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/editor.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/icons-909f3451ee6248f35b3ff262a2dadd08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/icons_rtl-0311c4e98297e48543b1bedf62291149.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/icons_rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/dialog_sides-8237dfeba6e4a6fe1ca52247fc35c8e9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/dialog_sides-bb7e682918824486cb75dc2fba468835.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/dialog_sides.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/dialog_sides.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/dialog_sides_rtl-70bc78d60b6c47ca96cbec7426301d86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/dialog_sides_rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/mini-cbe4b5fd30dd61467a11675095b996cf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/mini.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/noimage-0eabb52cde67bc977da7eec7fd652222.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/sprites-784912073fe366320e3696bf4c6243a6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/sprites.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/sprites_ie6-25e929d4a2636953f53995e23e98b6a6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/images/sprites_ie6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/skin-d6848a9c9979f740d5a93857e5b40578.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/skin-d6848a9c9979f740d5a93857e5b40578.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/skin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/skin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/templates-0065d6608b0abf9f6843b92509092641.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/templates-0065d6608b0abf9f6843b92509092641.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/templates.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/office2003/templates.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/dialog-2a4db39580636e3dba5f95aa69d42370.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/dialog-2a4db39580636e3dba5f95aa69d42370.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/dialog.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/editor-3add60378d08b45f2c1b446e60ce5bc1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/editor-3add60378d08b45f2c1b446e60ce5bc1.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/editor.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/icons-909f3451ee6248f35b3ff262a2dadd08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/icons_rtl-0311c4e98297e48543b1bedf62291149.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/icons_rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/dialog_sides-2fb3c8082dea8c4fc6c1659c9a0ec9ed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/dialog_sides-782a5018939ca614a801a04791909fb0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/dialog_sides.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/dialog_sides.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/dialog_sides_rtl-eede1f0bbe3d5fa1bde074f718ee5389.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/dialog_sides_rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/mini-cbe4b5fd30dd61467a11675095b996cf.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/mini.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/noimage-0eabb52cde67bc977da7eec7fd652222.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/sprites-4ed910f8bfa924e13c5d8611146f7dd2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/sprites.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/sprites_ie6-aa2400255f5414c4023f8bbd9e8b76b7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/sprites_ie6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/toolbar_start-8f13b0cea8d968469521ca68e88cd63d.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/images/toolbar_start.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/skin-0ed6bfce65bfdc18f6879a0df482fff1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/skin-0ed6bfce65bfdc18f6879a0df482fff1.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/skin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/skin.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/templates-fc473b2cbcff0421e6ff4a077c1c95c9.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/templates-fc473b2cbcff0421e6ff4a077c1c95c9.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/templates.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/skins/v2/templates.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/themes/default/theme-6e92ee541edc108536adc1e8036e3b31.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/themes/default/theme-6e92ee541edc108536adc1e8036e3b31.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/themes/default/theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/ckeditor/themes/default/theme.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-0e7ff93d8f48fe1f5f762e4312e78da7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-white-ef3d5b8d6a297804352b4a46fdb5466d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails-be8732dac73d845ac5b142c8fb5f9fb0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/rails.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/suppliers/show.html.erb" afterPath="$PROJECT_DIR$/app/views/suppliers/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/500.html" afterPath="$PROJECT_DIR$/public/500.html" />
+    </list>
     <ignored path="fishingtackle.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,37 +892,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_supplier.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/suppliers/_supplier.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="440" selection-end="440" vertical-scroll-proportion="-3.3333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/suppliers/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.030716723">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="34" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="suppliers.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/suppliers.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+            <state line="16" column="27" selection-start="482" selection-end="482" vertical-scroll-proportion="0.5026178">
               <folding />
             </state>
           </provider>
@@ -69,15 +908,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/questions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
@@ -87,6 +923,12 @@
         <option value="$PROJECT_DIR$/app/views/suppliers/_supplier.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/suppliers.css.scss" />
         <option value="$PROJECT_DIR$/app/views/suppliers/_property.html.erb" />
+        <option value="$PROJECT_DIR$/public/500.html" />
+        <option value="$PROJECT_DIR$/app/controllers/helps_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/comman/_disqus.html.erb" />
         <option value="$PROJECT_DIR$/app/views/suppliers/show.html.erb" />
       </list>
     </option>
@@ -99,12 +941,11 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-6" />
-    <option name="width" value="1368" />
-    <option name="height" value="775" />
+    <option name="y" value="24" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -140,16 +981,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fishingtackle" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,58 +999,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="fishingtackle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fishingtackle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fishingtackle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fishingtackle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="suppliers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fishingtackle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fishingtackle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -229,10 +1016,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: fishingtackle">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -360,6 +1147,15 @@
         <option name="RakeTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method>
+        <option name="RakeTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -395,15 +1191,6 @@
         <option name="RakeTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method>
-        <option name="RakeTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -434,6 +1221,8 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
     <configuration default="false" name="Development: fishingtackle" type="RailsRunConfigurationType" factoryName="Rails">
@@ -542,18 +1331,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-6" width="1368" height="775" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25075987" sideWeight="0.53271025" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2636778" sideWeight="0.394081" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44080997" sideWeight="0.49772036" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46728972" sideWeight="0.4969605" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.605919" sideWeight="0.4969605" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -617,88 +1406,88 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="224" selection-end="240" vertical-scroll-proportion="0.26427406" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="337" selection-end="337" vertical-scroll-proportion="0.07667211" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="280" selection-end="280" vertical-scroll-proportion="0.65106386" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="111" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="15" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.43455496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="454" selection-end="454" vertical-scroll-proportion="0.21859707" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="358" selection-end="358" vertical-scroll-proportion="0.33278957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/suppliers/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.3333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="34" selection-start="359" selection-end="359" vertical-scroll-proportion="0.2055465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/suppliers.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="14" selection-start="303" selection-end="303" vertical-scroll-proportion="0.26427406" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/suppliers/_property.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="42" selection-end="42" vertical-scroll-proportion="0.030716723">
-          <folding />
-        </state>
+        <state line="1" column="9" selection-start="42" selection-end="42" vertical-scroll-proportion="0.030716723" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/suppliers/_supplier.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="440" selection-end="440" vertical-scroll-proportion="-3.3333333">
+        <state line="5" column="41" selection-start="440" selection-end="440" vertical-scroll-proportion="-3.3333333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="42" selection-start="7497" selection-end="7497" vertical-scroll-proportion="0.52" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="449" selection-end="449" vertical-scroll-proportion="0.43003413" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/helps/_help_maintenance.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/helps_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="49" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="192" selection-end="192" vertical-scroll-proportion="0.12826604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="186" selection-end="186" vertical-scroll-proportion="0.22838499" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="23" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="292" selection-end="292" vertical-scroll-proportion="0.32300162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="37" selection-start="885" selection-end="885" vertical-scroll-proportion="0.46596858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comman/_disqus.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="115" selection-start="811" selection-end="811" vertical-scroll-proportion="0.39">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/suppliers/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.030716723">
+        <state line="16" column="27" selection-start="482" selection-end="482" vertical-scroll-proportion="0.5026178">
           <folding />
         </state>
       </provider>
