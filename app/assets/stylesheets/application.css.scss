@@ -30,9 +30,9 @@
   @include rounded-corners;
 }
 
-body {
-  background: #eee url("/assets/bodybg.jpg") bottom left repeat;
-}
+/*body {*/
+  /*background: #eee url("/assets/bodybg.jpg") bottom left repeat;*/
+/*}*/
 
 div.navbar {
   font-weight: bold;
@@ -87,7 +87,7 @@ div.footer {
   width: 840px;
   height:100px;
   margin: 0 auto;
-  padding-top: 5px;
+  padding-top: 7px;
   border-top: 1px solid #bbb;
 }
 

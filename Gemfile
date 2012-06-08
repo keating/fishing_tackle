@@ -22,3 +22,6 @@ group :production do
 end
 
 gem 'jquery-rails'
+
+gem 'execjs'
+gem 'therubyracer'
