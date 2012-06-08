@@ -2,9 +2,9 @@
   <div style="width: 100%;background-color: #eee;border-bottom: 1px solid #bbb;border-right: 1px solid #bbb;margin-bottom: 5px;height: 30px;line-height: 30px;" class="rounded-corners">
     <b><a href="<%= supplier_path supplier %>" style="margin-left: 5px;"><%= supplier.name %></a></b>
   </div>
-  <div style="padding-left: 5px;">
-    <%= render :partial => 'suppliers/property', :locals => {:supplier => supplier} %>
-  </div>
+  <!--<div style="padding-left: 5px;">-->
+    <!--<%#= render :partial => 'suppliers/property', :locals => {:supplier => supplier} %>-->
+  <!--</div>-->
 </div>
 
 <% unless (supplier.detail.nil? or supplier.detail.empty?) %>
