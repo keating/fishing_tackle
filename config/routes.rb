@@ -13,6 +13,8 @@ Fishingtackle::Application.routes.draw do
 
   resources :sessions
 
+  post '/search/index'
+
   #get "sessions#new"
 
   #post "sessions#create"
@@ -20,6 +22,8 @@ Fishingtackle::Application.routes.draw do
   match "signup" => "users#new"
   match "login" => "sessions#new"
   match "signout" => "sessions#destroy"
+
+  resources :admin_console
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -2,6 +2,7 @@
   <div class="navbar-inner">
     <div class="container">
       <a class="brand" href="<%= root_path %>" style="font-style: italic;">
+        <!--<img src="/assets/starfish.jpg" alt="" />-->
         <b>Fishing Tackle</b>
       </a>
       <ul class="nav">
@@ -34,6 +35,9 @@
             <li><a href="<%= login_path %>">Login</a></li>
         <% end %>
       </ul>
+      <form class="navbar-search pull-left" action="/search/index" method="post">
+        <input type="text" class="search-query" placeholder="Search" name="content">
+      </form>
     </div>
   </div>
 </div>

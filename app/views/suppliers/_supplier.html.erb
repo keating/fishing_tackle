@@ -9,6 +9,8 @@
 
 <% unless (supplier.detail.nil? or supplier.detail.empty?) %>
     <div class="supplier-detail rounded-corners">
+      Chinese Name:&nbsp;<%= supplier.name_cn %>
+      <br />
       <%= strip_tags supplier.detail %>
     </div>
 <% end %>

@@ -24,6 +24,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
 
     if @user.save
+      UserMailer.registration_confirmation.deliver
       sign_in @user
       flash[:success] = "Welcome to fishing tackle"
       redirect_to @user

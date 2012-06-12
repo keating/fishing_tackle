@@ -32,7 +32,7 @@ class SuppliersController < ApplicationController
 
     if @supplier.save
       flash[:success] = "Article was successfully created."
-      redirect_to suppliers_path
+      redirect_to @supplier
     else
       render 'new'
     end
@@ -41,7 +41,7 @@ class SuppliersController < ApplicationController
   def update
     if @supplier.update_attributes(params[:supplier])
       flash[:success] = "Article was successfully updated."
-      redirect_to suppliers_path
+      redirect_to @supplier
     else
       render 'edit'
     end

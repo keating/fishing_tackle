@@ -110,3 +110,10 @@ div.footer {
   @extend .error;
 }
 
+.control-label {
+  float: left;width: 120px;padding-top: 5px;text-align: right;
+}
+
+div.controls {
+  margin-left: 140px;
+}

@@ -1,7 +1,8 @@
 <div class="main-content">
   <h3 style="text-align: center;"><%= @supplier.name %></h3>
 
-  <p>
+  <p style="margin-top: 10px;">
+    Chinese Name:&nbsp;<%= @supplier.name_cn %>
     <%= @supplier.detail.html_safe %>
   </p>
 

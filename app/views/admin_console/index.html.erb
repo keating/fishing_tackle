@@ -1,0 +1,24 @@
+<div class="main-content">
+  <h2>Fishing Tackle Suppliers</h2>
+  <% @suppliers.each do |supplier| %>
+    <%= supplier.name_cn %>
+    <br />
+    <%= supplier.email %>
+    <br />
+    <a target="_blank" href="<%= 'http://'+request.host+((request.port==80)?'':(':'+request.port.to_s))+'/suppliers/'+supplier.id.to_s %>">
+      <%= 'http://'+request.host+((request.port==80)?'':(':'+request.port.to_s))+'/suppliers/'+supplier.id.to_s %>
+    </a>
+    <div class="common-line" style="border-color: <%= (supplier.name_cn.nil?)?'red':'auto' %>"></div>
+  <% end %>
+</div>
+
+<div class="divide-dev"></div>
+
+<div class="side-bar">
+  <div class="side-content">
+    <%= render 'common/supplier_button' %>
+  </div>
+  <div class="side-content" style="margin-top: 10px;">
+    <%= render 'common/adsense' %>
+  </div>
+</div>
