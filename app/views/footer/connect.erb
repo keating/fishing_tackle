@@ -1,0 +1,31 @@
+<h3>Connect us</h3>
+<div class="common-line" style="margin-top: 5px;margin-bottom: 10px;"></div>
+<% flash.each do |key, value| %>
+  <%= content_tag(:div, value, class: "alert alert-#{key}") %>
+<% end %>
+<div style='margin-top:10px;'>
+  <%= form_for @connect, :url => '/footer/create' do |f| %>
+    <% if @connect.errors.any? %>
+        <div id="error_explanation">
+          <div class="alert alert-error">
+            <%= pluralize(@connect.errors.count, "error") %> prohibited this supplier from
+            being saved:
+          </div>
+
+          <ul>
+            <% @connect.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+        <%= f.text_area :content, :style => "height:180px;width:830px", :toolbar => "Basic", :cols => "20" %>
+    </div>
+    <div class="actions" style="margin-top: 5px;">
+      <%= f.submit 'Connect us', :class => "btn btn-primary" %> or <b>Email: </b>outofclouds@gmail.com
+    </div>
+  <% end %>
+</div>
+

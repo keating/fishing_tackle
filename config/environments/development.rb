@@ -21,7 +21,7 @@ Fishingtackle::Application.configure do
       :port => 587,
       :domain => "www.google.com",
       :user_name => "outofclouds@gmail.com",
-      :password => "***",
+      :password => "84759330abc",
       :authentication => "plain",
       :enable_starttls_auto => true
   }

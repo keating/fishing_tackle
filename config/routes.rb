@@ -25,6 +25,11 @@ Fishingtackle::Application.routes.draw do
 
   resources :admin_console
 
+  match 'about' => 'footer#about'
+  match 'connect' => 'footer#connect'
+  post '/footer/create'
+  match 'feedback' => 'footer#feedback'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
