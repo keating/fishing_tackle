@@ -1,0 +1,15 @@
+<div class="main-content">
+  <h2>Questions and answers</h2>
+  <%= render @questions %>
+</div>
+
+<div class="divide-dev"></div>
+
+<div class="side-bar">
+  <div class="side-content">
+    <%= render 'common/question_button' %>
+  </div>
+  <div class="side-content" style="margin-top: 10px;">
+    <%= render 'common/adsense' %>
+  </div>
+</div>

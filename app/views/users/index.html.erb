@@ -1,28 +1,21 @@
-<h1>Listing users</h1>
-
 <table>
   <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Password digeset</th>
-    <th>Remember token</th>
-    <th>Admin</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+    <td style='vertical-align:top;'>
+      <div class="main-content">
+        <h2>All Users</h2>
+        <%= render @users %>
+      </div>
+    </td>
 
-<% @users.each do |user| %>
-  <tr>
-    <td><%= user.name %></td>
-    <td><%= user.email %></td>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></td>
+    <td width='12px;'></td>
+
+    <td style='vertical-align:top;'>
+      <div class="side-bar">
+        <div class="side-content">
+          <a href="/users" class="btn" style="color: #4d4d4d;display:block;width: 100px;margin-top: 10px;margin-bottom: 10px;margin-left: auto;margin-right: auto;">users</a>
+          <a href="/admin_console" class="btn" style="color: #4d4d4d;display:block;width: 100px;margin-top: 10px;margin-bottom: 10px;margin-left: auto;margin-right: auto;">admin console</a>
+        </div>
+      </div>
+    </td>
   </tr>
-<% end %>
 </table>
-
-<br />
-
-<%= link_to 'New User', new_user_path %>

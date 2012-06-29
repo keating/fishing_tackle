@@ -28,13 +28,24 @@ module SessionsHelper
     end
   end
 
+  def admin_user
+    unless sign_in?
+      store_location
+      redirect_to login_path
+      return
+    end
+    redirect_to user_path(current_user) unless current_user.admin?
+  end
+
   def sign_out
     current_user = nil
     cookies.delete(:remember_token)
   end
 
   def redirect_back_or(default)
-    redirect_to(session[:redirect_to] || default)
+    p '+++++++++++++++++++++'
+    p session[:return_to]
+    redirect_to(session[:return_to] || default)
   end
 
   def store_location

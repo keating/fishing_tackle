@@ -29,22 +29,19 @@ user.save!
 User.create!(:name => "JI", :email => "abc@def.com", :password => "123456", :password_confirmation => "123456")
 User.create!(:name => "WN", :email => "abc@ghi.com", :password => "123456", :password_confirmation => "123456")
 
-10.times do |i|
-  article = Article.create(:title=>"清晨渔具店被盗"+i.to_s,
-                 :content => content)
-  article.user = user
-  article.save!
+article = Article.create(:title=>"清晨渔具店被盗", :content => content)
+article.user = user
+article.save!
 
-  supplier = Supplier.create(:name => "Guangwei Group Co., Ltd (GW) " + i.to_s,
-                  :tel => "86-631-5251384",
-                  :fax => "86-631-5251990",
-                  :email => "wgftg@public.whptt.sd.cn",
-                  :address => "NO 265 Shichang Road Weihai 264209, Shandong China",
-                  :detail => guangwei_detail)
-  supplier.user = user
-  supplier.save!
-end
-
+supplier = Supplier.create(:name_cn => '威海光威集团有限责任公司',
+                :name => "Guangwei Group Co., Ltd (GW) ",
+                :tel => "86-631-5251384",
+                :fax => "86-631-5251990",
+                :email => "wgftg@public.whptt.sd.cn",
+                :address => "NO 265 Shichang Road Weihai 264209, Shandong China",
+                :detail => guangwei_detail)
+supplier.user = user
+supplier.save!
 
 huanqiu_detail = %(
 Established in 1985, Shandong Weihai HUANQIU Fishing Tackle Industrial Co., Ltd. became the forerunner of fishing rods industry in China through introducing glass fiber rods into this country with the advanced foreign technology from its very beginning. Since then, the company has been devoting itself to the R&D, production and operation of fishing rods in glass fiber or carbon fiber, and is a professional manufacturer for the R&D and production of rods in glass fiber and carbon fiber. It is in 1992 when it set up the first research institute of fishing rods in the domestic fishing rods industry, and there it focused on technology research and product innovation. Meanwhile, the two projects attributed to this institute, rods in carbon fiber and sanitary ware in glass fiber which, have been selected under the “National Torch Plan”, and got appraised.
@@ -56,7 +53,8 @@ Adhering to technology leadership, ensuring employees’ welfare, sincerely serv
 In addition, the company has also made strategic investments in the fields of real estate and finance in recent years; it developed two projects with the combination of dwelling houses and shopping malls in the downtown, that is, HUANQIU Plaza and YIJIA Life Plaza and became the shareholder of Weihai City Commercial Bank, Weihai Rural Commercial Bank and QILU Securities Co., Ltd.)
 
 
-supplier = Supplier.create(:name => "Shandong Weihai Huanqiu Fishing Tackle Industrial Co., Ltd.",
+supplier = Supplier.create(:name_cn => '山东环球渔具股份有限公司',
+                :name => "Shandong Weihai Huanqiu Fishing Tackle Industrial Co., Ltd.",
                 :tel => "+86-631-3656088",
                 :fax => "+86-631-3656226",
                 :email => "huanqiu@huanqiufishing.com.cn",

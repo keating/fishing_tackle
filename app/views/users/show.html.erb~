@@ -1,7 +1,4 @@
-<table>
-  <tr>
-    <td style='vertical-align:top;'>
-
+<div style="display: inline-block;">
   <div class="main-content" style="display: block;">
     <h3><%= @user.name %>'s news</h3>
     <% @user.articles.each do |article| %>
@@ -35,34 +32,20 @@
   </div>
 </div>
 
-</td>
-<td width='12px;'></td>
-<td style='vertical-align:top;'>
+<div class="divide-dev"></div>
 
 <div class="side-bar">
-  <div class="side-content" style="vertical-align: top;">
-    <div style="display: inline-block;vertical-align: top;">
-      <%= gravatar_for @user, :size => 30 %>
+  <div class="side-content">
+    <div style="display: inline-block;">
+      <%= gravatar_for @user %>
     </div>
-    <div style="display: inline-block;height:30px;margin-left: 3px;">
+    <div style="display: inline-block;vertical-align: top;margin-left: 5px;">
       <h3><%= @user.name %></h3>
-    </div>
-    <div>
       <%= @user.email %>
     </div>
   </div>
 
   <div class="side-content" style="margin-top: 10px;">
-    <%= render 'common/article_button' %>
-    <%= render 'common/supplier_button' %>
-    <%= render 'common/question_button' %>
+    <%= render 'common/adsense' %>
   </div>
-
-  <!--<div class="side-content" style="margin-top: 10px;">-->
-    <!--<%#= render 'common/adsense' %>-->
-  <!--</div>-->
 </div>
-
-</td>
-</tr>
-</table>

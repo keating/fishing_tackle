@@ -1,7 +1,9 @@
-<div class="common-line"></div>
-<div class="article-title" style="position: relative;">
-  <b><a href="<%= article_path article %>"><%= article.title %></a></b>
+<div style="width: 100%;display: inline-block;margin-bottom: 5px;">
+  <div style="width: 100%;background-color: #eee;border-bottom: 1px solid #bbb;border-right: 1px solid #bbb;margin-bottom: 5px;height: 30px;line-height: 30px;" class="rounded-corners">
+    <b><a href="<%= article_path article %>" style="margin-left: 5px;"><%= article.title %></a></b>
+  </div>
 </div>
+
 <div class="article-content">
   <%= wrap article.content %>
 </div>

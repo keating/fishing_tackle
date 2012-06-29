@@ -6,6 +6,9 @@
         <b>Fishing Tackle</b>
       </a>
       <ul class="nav">
+        <li id='nav-articles'>
+          <a href="<%= articles_path %>">News</a>
+        </li>
         <li id="nav-suppliers">
           <a href="<%= suppliers_path %>">Suppliers</a>
         </li>
@@ -35,7 +38,7 @@
             <li><a href="<%= login_path %>">Login</a></li>
         <% end %>
       </ul>
-      <form class="navbar-search pull-left" action="/search/index" method="post">
+      <form class="navbar-search pull-left" action="<%= search_path %>">
         <input type="text" class="search-query" placeholder="Search" name="content">
       </form>
     </div>

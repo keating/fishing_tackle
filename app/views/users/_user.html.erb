@@ -1,0 +1,11 @@
+<div style="width: 100%;display: inline-block;margin-bottom: 5px;">
+  <div style="width: 100%;background-color: #eee;border-bottom: 1px solid #bbb;border-right: 1px solid #bbb;height: 30px;line-height: 30px;" class="rounded-corners">
+    <div style="display: inline-block;width: 120px;"><b><a href="<%= user_path user %>" style="margin-left: 5px;"><%= user.name %></a></b></div>
+    <div style="display: inline-block;width: 200px;"><%= user.email %></div>
+    <div style="display: inline-block;width: 240px;text-align: right;">
+      <%= link_to 'Show', user %>
+      <%= link_to 'Edit', edit_user_path(user) %>
+      <%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %>
+    </div>
+  </div>
+</div>

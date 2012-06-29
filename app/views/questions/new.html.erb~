@@ -1,0 +1,13 @@
+<div class="main-content">
+  <h2>Ask a question</h2>
+  <div class="common-line"></div>
+  <%= render 'form' %>
+</div>
+
+<div class="divide-dev"></div>
+
+<div class="side-bar">
+  <div class="side-content">
+    <%= render 'common/adsense' %>
+  </div>
+</div>

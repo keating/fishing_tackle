@@ -1,21 +1,28 @@
+<table>
+  <tr>
+    <td style='vertical-align:top;'>
 
-<div class="main-content">
-  <%= render :partial => 'questions/question', :locals => {:question => @question} %>
-  <div style="width: 100%;text-align: right;">
-    <%= render :partial => 'helps/form', :locals => {:question => @question} %>
-  </div>
-</div>
+      <div class="main-content">
+        <%= render :partial => 'questions/question', :locals => {:question => @question} %>
+        <div style="width: 100%;text-align: right;">
+          <%= render :partial => 'helps/form', :locals => {:question => @question} %>
+        </div>
+      </div>
 
-<div class="divide-dev"></div>
+    </td>
+    <td width='12px;'></td>
+    <td style='vertical-align:top;'>
 
-<div class="side-bar">
-  <div class="side-content">
-    <a href="<%= new_question_path %>" class="btn btn-primary" style="color: #ffffff;display:block;width: 100px;margin-top: 10px;margin-bottom: 10px;margin-left: auto;margin-right: auto;">
-      Ask a question !
-    </a>
-  </div>
-  <div class="side-content" style="margin-top: 10px;">
-    <%= render 'common/adsense' %>
-  </div>
-</div>
+      <div class="side-bar">
+        <div class="side-content">
+          <%= render 'common/question_button' %>
+        </div>
+        <!--<div class="side-content" style="margin-top: 10px;">-->
+          <!--<%#= render 'common/adsense' %>-->
+        <!--</div>-->
+      </div>
+
+    </td>
+  </tr>
+</table>
 

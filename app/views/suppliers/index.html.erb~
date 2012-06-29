@@ -1,0 +1,15 @@
+<div class="main-content">
+  <h2>Fishing Tackle Suppliers</h2>
+  <%= render @suppliers %>
+</div>
+
+<div class="divide-dev"></div>
+
+<div class="side-bar">
+  <div class="side-content">
+    <%= render 'common/supplier_button' %>
+  </div>
+  <div class="side-content" style="margin-top: 10px;">
+    <%= render 'common/adsense' %>
+  </div>
+</div>

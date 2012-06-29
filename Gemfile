@@ -16,8 +16,11 @@ end
 
 gem 'pg'
 
+#group :development do
+#  gem 'api_tasker'
+#end
+
 group :production do
-  gem 'pg'
   gem 'thin'
 end
 

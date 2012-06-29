@@ -73,7 +73,7 @@ div.side-bar {
 
 div.divide-dev {
   display:inline-block;
-  width: 10px;
+  width: 0px;
 }
 
 div.common-line {
@@ -116,4 +116,11 @@ div.footer {
 
 div.controls {
   margin-left: 140px;
+}
+
+.inline-label {
+  display: inline-block;
+  padding-top: 3px;
+  width:30px;
+  font-weight: bold;
 }

@@ -1,24 +1,32 @@
-<div class="main-content">
-  <h2>Fishing Tackle Suppliers</h2>
-  <% @suppliers.each do |supplier| %>
-    <%= supplier.name_cn %>
-    <br />
-    <%= supplier.email %>
-    <br />
-    <a target="_blank" href="<%= 'http://'+request.host+((request.port==80)?'':(':'+request.port.to_s))+'/suppliers/'+supplier.id.to_s %>">
-      <%= 'http://'+request.host+((request.port==80)?'':(':'+request.port.to_s))+'/suppliers/'+supplier.id.to_s %>
-    </a>
-    <div class="common-line" style="border-color: <%= (supplier.name_cn.nil?)?'red':'auto' %>"></div>
-  <% end %>
-</div>
+<table>
+  <tr>
+    <td style='vertical-align:top;'>
+      <div class="main-content">
+        <h2>Fishing Tackle Suppliers</h2>
+        <% @suppliers.each do |supplier| %>
+            <%= supplier.name_cn %>
+            <br/>
+            <%= supplier.email %>
+            <br/>
+            <a target="_blank" href="<%= 'http://'+request.host+((request.port==80) ? '' : (':'+request.port.to_s))+'/suppliers/'+supplier.id.to_s %>">
+              <%= 'http://'+request.host+((request.port==80) ? '' : (':'+request.port.to_s))+'/suppliers/'+supplier.id.to_s %>
+            </a>
 
-<div class="divide-dev"></div>
+            <div class="common-line" style="border-color: <%= (supplier.name_cn.nil?) ? 'red' :'auto' %>"></div>
+        <% end %>
+      </div>
+    </td>
 
-<div class="side-bar">
-  <div class="side-content">
-    <%= render 'common/supplier_button' %>
-  </div>
-  <div class="side-content" style="margin-top: 10px;">
-    <%= render 'common/adsense' %>
-  </div>
-</div>
+    <td width='12px;'></td>
+
+    <td style='vertical-align:top;'>
+      <div class="side-bar">
+        <div class="side-content">
+          <a href="/users" class="btn" style="color: #4d4d4d;display:block;width: 100px;margin-top: 10px;margin-bottom: 10px;margin-left: auto;margin-right: auto;">users</a>
+          <a href="/admin_console" class="btn" style="color: #4d4d4d;display:block;width: 100px;margin-top: 10px;margin-bottom: 10px;margin-left: auto;margin-right: auto;">admin
+            console</a>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>

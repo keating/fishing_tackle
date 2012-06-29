@@ -15,3 +15,12 @@
 //= require bootstrap
 //= require_tree .
 //= require ckeditor/init
+
+$(function(){
+    // ie6
+    if($.browser.msie && ($.browser.version == 6.0)) {
+        $('.content').css('margin-top', '10px');
+    }
+});
+
+
