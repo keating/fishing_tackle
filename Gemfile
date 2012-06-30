@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 gem 'rails', '3.2.3'
 
@@ -6,7 +6,7 @@ gem 'bootstrap-sass', '2.0.0'
 gem 'bootstrap-will_paginate', '0.0.5'
 gem 'bcrypt-ruby'
 
-gem 'ckeditor', '3.7.0.rc3'
+gem "ckeditor", :git => "git://github.com/joe1chen/ckeditor.git"
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

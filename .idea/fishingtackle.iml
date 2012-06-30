@@ -28,7 +28,6 @@
     <orderEntry type="library" scope="PROVIDED" name="bootstrap-will_paginate (v0.0.5, RVM: ruby-1.9.2-p290 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.0, RVM: ruby-1.9.2-p290 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.1.1, RVM: ruby-1.9.2-p290 [rails3.2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ckeditor (v3.7.0.rc3, RVM: ruby-1.9.2-p290 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, RVM: ruby-1.9.2-p290 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-1.9.2-p290 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.3.1, RVM: ruby-1.9.2-p290 [rails3.2]) [gem]" level="application" />
